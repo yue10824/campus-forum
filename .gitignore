@@ -1,0 +1,32 @@
+# ===== Java / Maven =====
+campus-forum-backend/target/
+campus-forum-backend/*.log
+*.class
+*.jar
+!campus-forum-backend/target/campus-forum-1.0.0.jar
+
+# ===== Node / Vue =====
+campus-forum-frontend/node_modules/
+campus-forum-frontend/dist/
+campus-forum-frontend/.vite/
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志 / 临时 =====
+*.log
+backend.log
+uploads/
+
+# ===== 敏感配置（如需上传请手动删除密码后提交）=====
+# application.yml 包含数据库密码和AI密钥，按需决定是否忽略
+# campus-forum-backend/src/main/resources/application.yml
