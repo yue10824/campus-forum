@@ -1,8 +1,0 @@
-schema_version: 1
-module_path: backend
-title: 校园论坛后端服务
-scope:
-    - campus-forum-backend/
-source_files: []
-depends_on: []
-related_to: []

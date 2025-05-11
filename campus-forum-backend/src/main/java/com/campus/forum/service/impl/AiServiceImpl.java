@@ -86,7 +86,7 @@ public class AiServiceImpl implements AiService {
                         return;
                     }
                     BufferedReader reader = new BufferedReader(
-                            new InputStreamReader(response.body().byteStream()));
+                            new InputStreamReader(response.body().byteStream(), "UTF-8"));
                     String line;
                     while ((line = reader.readLine()) != null) {
                         if (line.startsWith("data:")) {
